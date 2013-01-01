@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="surround">
+  <template name="TRY" value="try {&#10;    $SELECTION$&#10;    $END$&#10;} catch($EXCEPTION_TYPE$ ex) {&#10;    // do something with your exception&#10;}" description="Surround with Try/Catch" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
+    <variable name="EXCEPTION_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
+
