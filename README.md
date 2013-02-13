@@ -5,7 +5,7 @@ IntelliJ 12 code templates
 Sample
 -------
 
-Ctrl+J them type "that" to get
+Ctrl+J them type "that" to get assertThat method from fest-assert (with static import,...)
 
 
 How to get it ?
