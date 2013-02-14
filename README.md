@@ -1,4 +1,4 @@
-IntelliJ 12 code templates
+﻿IntelliJ 12 code templates
 ========
 
 
@@ -18,7 +18,13 @@ How to get it ?
 IntelliJ preferences folder: 
 -----
 On Mac OS X
+
 	~/Library/Preferences/IntelliJIdea12
+
+On Windows
+
+	~/.IntelliJIdea12/config
+
 
 Code templates
 ------
