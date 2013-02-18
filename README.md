@@ -26,6 +26,12 @@ On Windows
 	~/.IntelliJIdea12/config
 
 
+References
+------
+
+* [Quelques live template intellij pour Mockito](http://blog.arkey.fr/2011/10/21/quelques-live-template-intellij-pour-mockito/)
+* [IntelliJ Live templates documentation](http://www.jetbrains.com/idea/webhelp/live-templates.html)
+
 Code templates
 ------
 
