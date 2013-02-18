@@ -22,5 +22,7 @@ end
 
 
 read_file("mockito.xml")
-read_file("user.xml")
+read_file("fest_assert.xml")
+read_file("junit.xml")
+read_file("testng.xml")
 read_file("surround.xml")

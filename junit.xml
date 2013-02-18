@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="junit">
+  <template name="should" value="@org.junit.Test&#10;public void should_$NAME$() {&#10;&#10;}" description="create a junit test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
+

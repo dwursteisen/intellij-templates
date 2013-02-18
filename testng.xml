@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="test ng">
+  <template name="should_NG" value="@org.testng.annotations.Test&#10;public void should_$NAME$() {&#10;&#10;}" description="create a test NG unit test" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
+
