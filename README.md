@@ -12,18 +12,21 @@ How to get it ?
 -------
 
 	Close IntelliJ
-	git clone xxxx templates # into your IntelliJ preference folder
+	git clone xxxx # clone or copy this repository on your hard drive
+	# copy *.xml into your IntelliJ templates folder (see above)
+	# if your are on Mac OS X, your can run this command :
+	ruby install.rb
 	relaunch IntelliJ
 
-IntelliJ preferences folder: 
+IntelliJ templates folder:
 -----
 On Mac OS X
 
-	~/Library/Preferences/IntelliJIdea12
+	~/Library/Preferences/IntelliJIdea12/templates
 
 On Windows
 
-	~/.IntelliJIdea12/config
+	~/.IntelliJIdea12/config/templates
 
 
 References
