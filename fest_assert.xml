@@ -12,7 +12,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="ext" value="org.fest.assertions.api.Assertions.extractProperty($PROPERTY$).from($ITERABLE$)" description="extracte property" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="ext" value="org.fest.assertions.api.Assertions.extractProperty($PROPERTY$).from($ITERABLE$)" description="extract property" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="PROPERTY" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="ITERABLE" expression="variableOfType(Type)" defaultValue="" alwaysStopAt="true" />
     <context>

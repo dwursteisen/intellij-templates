@@ -91,7 +91,7 @@ fest assert
 		<td>that</td><td>that / fest assert</td>
 	</tr>
 	<tr>
-		<td>ext</td><td>extracte property</td>
+		<td>ext</td><td>extract property</td>
 	</tr>
 </table>
 
@@ -104,6 +104,12 @@ junit
 	</tr>
 	<tr>
 		<td>should</td><td>create a junit test</td>
+	</tr>
+	<tr>
+		<td>run_theories</td><td>Run With Theories</td>
+	</tr>
+	<tr>
+		<td>should_theory</td><td>create theory unit test</td>
 	</tr>
 </table>
 
