@@ -7,6 +7,9 @@ Sample
 
 Ctrl+J them type "that" to get assertThat method from fest-assert (with static import,...)
 
+or for surround templates :
+select a block of code then : Ctrl + Alt + J and type TRY to surround your code with a try {} catch {}
+
 
 How to get it ?
 -------
@@ -114,5 +117,17 @@ testNG
 	</tr>
 	<tr>
 		<td>should_NG</td><td>create a test NG unit test</td>
+	</tr>
+</table>
+
+plain java (surround)
+----
+<table>
+	<tr>
+		<th>template</th>
+		<th>description</th>
+	</tr>
+	<tr>
+		<td>TRY</td><td>Surround with Try/Catch</td>
 	</tr>
 </table>
