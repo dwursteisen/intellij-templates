@@ -1,28 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="unit test">
-  <template name="that" value="org.fest.assertions.api.Assertions.assertThat($OBJECT$)" description="that / fest assert" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="that_fest" value="org.fest.assertions.api.Assertions.assertThat($OBJECT$)" description="that / fest assert" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="OBJECT" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="HAML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="ext" value="org.fest.assertions.api.Assertions.extractProperty($PROPERTY$).from($ITERABLE$)" description="extract property" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="ext" value="org.assertj.core.api.Assertions.extractProperty($PROPERTY$).from($ITERABLE$)" description="extracte property" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="PROPERTY" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
     <variable name="ITERABLE" expression="variableOfType(Type)" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="HAML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="that" value="org.assertj.core.api.Assertions.assertThat($OBJECT$)" description="that / assert4j" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="OBJECT" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
       <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="HAML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ext_fest" value="org.fest.assertions.api.Assertions.extractProperty($PROPERTY$).from($ITERABLE$)" description="extracte property / fest assert" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="PROPERTY" expression="&quot;&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITERABLE" expression="variableOfType(Type)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OGNL" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="HAML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
 </templateSet>
