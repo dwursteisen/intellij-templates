@@ -29,7 +29,7 @@ On Mac OS X
 
 On Windows
 
-	~/.IntelliJIdea12/config/templates
+	~/.IntelliJIdea/config/templates
 
 
 References
@@ -41,7 +41,7 @@ References
 Code templates
 ------
 
-Mockito
+[Mockito](https://code.google.com/p/mockito/)
 ----
 <table>
 	<tr>
@@ -80,7 +80,7 @@ Mockito
 	</tr>
 </table>
 
-fest assert
+[Assertj](https://github.com/joel-costigliola/assertj-core)
 -----
 <table>
 	<tr>
@@ -93,9 +93,12 @@ fest assert
 	<tr>
 		<td>ext</td><td>extract property</td>
 	</tr>
+	<tr>
+		<td>filter</td><td>filter property</td>
+	</tr>
 </table>
 
-junit
+[jUnit](http://junit.org/)
 -----
 <table>
 	<tr>
@@ -114,7 +117,7 @@ junit
 </table>
 
 
-testNG
+[testNG](http://testng.org/doc/index.html)
 ----
 <table>
 	<tr>
