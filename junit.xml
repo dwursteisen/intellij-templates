@@ -59,5 +59,16 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
+  <template name="at" value="@org.junit.After&#10;public void tearDown() {&#10;&#10;}" description="Creates a tear down method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
 </templateSet>
 
