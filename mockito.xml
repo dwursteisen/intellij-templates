@@ -5,13 +5,13 @@
     <variable name="MOCK" expression="variableOfType(&quot;Object&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="METHOD" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_CODE" value="false" />
       <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
     </context>
   </template>
   <template name="doReturn" value="org.mockito.Mockito.doReturn($VALUE$).when($MOCK$).$METHOD$;" description="mockito / doReturn...when" toReformat="true" toShortenFQNames="true" useStaticImport="true">
@@ -19,103 +19,103 @@
     <variable name="MOCK" expression="variableOfType(&quot;Object&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="METHOD" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_CODE" value="false" />
       <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
     </context>
   </template>
-  <template name="gw" value="org.mockito.BDDMockito.given($MOCK$).willReturn($ARGS$)$END$" description="BDD Stub mock with given(…).willReturn(…) style" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="gw" value="org.mockito.BDDMockito.given($MOCK$).willReturn($ARGS$)$END$;" description="BDD Stub mock with given(…).willReturn(…) style" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="MOCK" expression="variableOfType(&quot;Object&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_CODE" value="false" />
       <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
     </context>
   </template>
-  <template name="wg" value="org.mockito.BDDMockito.willReturn($RETURNED$).given($MOCK$).$CALL$ $END$" description="BDD Stub spy/mock with willReturn(…).given(…) style" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="wg" value="org.mockito.BDDMockito.willReturn($RETURNED$).given($MOCK$).$CALL$ $END$;" description="BDD Stub spy/mock with willReturn(…).given(…) style" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="RETURNED" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="MOCK" expression="variableOfType(&quot;Object&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="CALL" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_CODE" value="false" />
       <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
     </context>
   </template>
-  <template name="am" value="@org.mockito.Mock private $TYPE$ $MOCK_FIELD$" description="Creates a field with the @Mock annotation" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="am" value="@org.mockito.Mock private $TYPE$ $MOCK_FIELD$;" description="Creates a field with the @Mock annotation" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="TYPE" expression="variableOfType(&quot;Object&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="MOCK_FIELD" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
       <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
     </context>
   </template>
-  <template name="as" value="@org.mockito.Spy private $TYPE$ $MOCK_FIELD$" description="Creates a field with the @Spy annotation" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="as" value="@org.mockito.Spy private $TYPE$ $MOCK_FIELD$;" description="Creates a field with the @Spy annotation" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="TYPE" expression="variableOfType(&quot;Object&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="MOCK_FIELD" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
       <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
     </context>
   </template>
-  <template name="aim" value="@org.mockito.InjectMocks private $TYPE$ $MOCK_FIELD$" description="Creates a field with the @InjectMocks annotation" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="aim" value="@org.mockito.InjectMocks private $TYPE$ $MOCK_FIELD$;" description="Creates a field with the @InjectMocks annotation" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="TYPE" expression="variableOfType(&quot;Object&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="MOCK_FIELD" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
       <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
     </context>
   </template>
   <template name="rwm" value="@org.junit.runner.RunWith(org.mockito.runners.MockitoJUnitRunner.class)" description="Add @RunWith(MockitoJUnitRunner.class)" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
       <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
     </context>
   </template>
-  <template name="verif" value="org.mockito.Mockito.verify($MOCK$).$CALL$" description="Inserts a verify(…) statement" toReformat="false" toShortenFQNames="true">
+  <template name="verif" value="org.mockito.Mockito.verify($MOCK$).$CALL$;" description="Inserts a verify(…) statement" toReformat="false" toShortenFQNames="true">
     <variable name="MOCK" expression="variableOfType(&quot;Object&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="CALL" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_CODE" value="false" />
       <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
     </context>
   </template>
   <template name="ioverif" value="org.mockito.InOrder $IN_ORDER_VAR$ = org.mockito.Mockito.inOrder($MOCKS$);&#10;$IN_ORDER_VAR$.verify($MOCK$).$CALL$;" description="Inserts Mockito.inOrder(mocks) followed by inOrder.verify(…) statementInserts Mockito.inOrder(mocks) followed by inOrder.verify(…) statement" toReformat="true" toShortenFQNames="true" useStaticImport="true">
@@ -124,13 +124,13 @@
     <variable name="MOCK" expression="variableOfType(&quot;Object&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="CALL" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_CODE" value="false" />
       <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
     </context>
   </template>
 </templateSet>
