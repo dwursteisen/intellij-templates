@@ -3,37 +3,71 @@
   <template name="should" value="@org.junit.Test&#10;public void should_$NAME$() {&#10;&#10;}" description="create a junit test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="run_theories" value="@org.junit.runner.RunWith(org.junit.experimental.theories.Theories.class)" description="Run With Theories" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="should_theory" value="@org.junit.experimental.theories.Theory&#10;public void should_$NAME$($DATA_POINT$) {&#10;&#10;}" description="create theory unit test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DATA_POINT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="bf" value="@org.junit.Before&#10;public void setUp() {&#10;&#10;}" description="Creates a setup method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="swat" value="@org.junit.Test public void &#10;should$NAME$() {&#10;    assertThat();&#10;}" description="Creates a junit test with assert that" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="at" value="@org.junit.After&#10;public void tearDown() {&#10;&#10;}" description="Creates a tear down method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
     </context>
   </template>
 </templateSet>

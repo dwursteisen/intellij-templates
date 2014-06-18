@@ -106,6 +106,9 @@ Code templates
 		<th>description</th>
 	</tr>
 	<tr>
+    	<td>bf</td><td>Creates a setup method</td>
+    </tr>
+	<tr>
 		<td>should</td><td>create a junit test</td>
 	</tr>
 	<tr>
@@ -113,6 +116,9 @@ Code templates
 	</tr>
 	<tr>
 		<td>should_theory</td><td>create theory unit test</td>
+	</tr>
+	<tr>
+	    <td>swat</td><td>Creates a junit test with assert that</td>
 	</tr>
 </table>
 
