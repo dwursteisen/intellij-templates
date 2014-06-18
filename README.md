@@ -1,4 +1,4 @@
-﻿IntelliJ 12 code templates
+﻿IntelliJ 13 code templates
 ========
 
 
