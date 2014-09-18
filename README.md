@@ -5,7 +5,7 @@
 Sample
 -------
 
-Ctrl+J them type "that" to get assertThat method from fest-assert (with static import,...)
+Ctrl+J them type "that" to get assertThat method from assertj (with static import,...)
 
 or for surround templates :
 select a block of code then : Ctrl + Alt + J and type TRY to surround your code with a try {} catch {}
@@ -14,23 +14,14 @@ select a block of code then : Ctrl + Alt + J and type TRY to surround your code 
 How to get it ?
 -------
 
-	Close IntelliJ
-	git clone xxxx # clone or copy this repository on your hard drive
-	# copy *.xml into your IntelliJ templates folder (see above)
-	# if your are on Mac OS X, your can run this command :
-	ruby install.rb
-	relaunch IntelliJ
-
-IntelliJ templates folder:
------
-On Mac OS X
-
-	~/Library/Preferences/IntelliJIdea12/templates
-
-On Windows
-
-	~/.IntelliJIdea/config/templates
-
+	Download [this repository as Zip file](https://github.com/dwursteisen/intellij-templates/archive/master.zip).
+	Into IntelliJ : click on File > Import Settings
+	Select the zip you have just downloaded
+	Import Live Templates & answer Yes when IntelliJ wants to be restarted
+	Enjoy !
+	
+![Import Menu](https://raw.githubusercontent.com/dwursteisen/intellij-templates/master/menu.png)
+![Lives Templates](https://raw.githubusercontent.com/dwursteisen/intellij-templates/master/import.png)
 
 References
 ------
