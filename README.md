@@ -14,13 +14,12 @@ select a block of code then : Ctrl + Alt + J and type TRY to surround your code 
 How to get it ?
 -------
 
-	Download [this repository as Zip file](https://github.com/dwursteisen/intellij-templates/archive/master.zip).
+	Download this repository as Zip file
 	Into IntelliJ : click on File > Import Settings
 	Select the zip you have just downloaded
 	Import Live Templates & answer Yes when IntelliJ wants to be restarted
 	Enjoy !
 	
-![Import Menu](https://raw.githubusercontent.com/dwursteisen/intellij-templates/master/menu.png)
 ![Lives Templates](https://raw.githubusercontent.com/dwursteisen/intellij-templates/master/import.png)
 
 References
